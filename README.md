@@ -19,7 +19,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQLi Injection 
 
-Description: Using a short SQL command, we are able to manipulate the URL and inject a simple sleep command. 
++ Using a short SQL command, we are able to manipulate the URL and inject a simple sleep command. 
 
 <img src="blue-vuln1.gif">
 
@@ -28,7 +28,7 @@ Description: Using a short SQL command, we are able to manipulate the URL and in
 
 Vulnerability #1: Username Enumeration
 
-Description: When you log in, we can tell if a username exists in the database by the font change. If the username is valid, it becomes bold. If it's invalid, it stays normal.
++ When you log in, we can tell if a username exists in the database by the font change. If the username is valid, it becomes bold. If it's invalid, it stays normal.
 
 <img src="green-vuln1.gif">
 
@@ -37,7 +37,7 @@ Description: When you log in, we can tell if a username exists in the database b
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-Description: We can insert numbers into the salesperson ID in the URL to access pages that are not normally accessible from the main menu. Entering  10 or 11 shows details of former employees who were terminated.
++ We can insert numbers into the salesperson ID in the URL to access pages that are not normally accessible from the main menu. Entering  10 or 11 shows details of former employees who were terminated.
 
 <img src="red-vuln1.gif">
 
