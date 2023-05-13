@@ -17,31 +17,33 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQLi Injection 
 
-Description:
+Description: Using a short SQL command, we are able to manipulate the URL and inject a simple sleep command. 
 
 <img src="blue-vuln1.gif">
 
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
-Description:
+Description: When you log in, we can tell if a username exists in the database by the font change. If the username is valid, it becomes bold. If it's invalid, it stays normal.
 
 <img src="green-vuln1.gif">
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-Description:
+Description: We can insert numbers into the salesperson ID in the URL to access pages that are not normally accessible from the main menu. Entering  10 or 11 shows details of former employees who were terminated.
 
 <img src="red-vuln1.gif">
 
 
-## Notes
+## Notes 
 
-Describe any challenges encountered while doing the work
+This was more simple than I thought, although it was time cosuming to be looking around the code for exploits. Seeing the bigger picture was much easier in the scheme of things.
+
+
